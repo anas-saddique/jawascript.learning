@@ -1,12 +1,11 @@
  const studentId = 12345679;
- let studentName = "anassiddique";
+ let studentName = "anassiddique MP NDG";
  let studentAge = "20"
- let studentCity = "bhawalpur";
+ let studentCity = "US NDG";
  let isStudent = "yes";
 
 
 //  accountId = 987654321;
-
 // accountEmail = "anassiddique@example.com"
 // accountPassword = "54321"
 // accountCity = "lahore"
