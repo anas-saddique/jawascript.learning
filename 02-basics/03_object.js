@@ -16,3 +16,6 @@ console.log(Jsuser.email);
 console.log(Jsuser["email"]);
 console.log(Jsuser["full name"]);
 console.log(Jsuser[mySym]);
+
+Jsuser.email = "anas@newemail.com"
+Object.freeze(Jsuser);
