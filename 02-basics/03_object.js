@@ -38,3 +38,6 @@ Jsuser.greetingTwo = function(){
 
 console.log(Jsuser.greeting());
 console.log(Jsuser.greetingTwo());
+
+
+// complete the object with all the properties and methods
