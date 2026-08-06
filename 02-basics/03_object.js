@@ -28,10 +28,13 @@ console.log(Jsuser);
 Jsuser.greeting = function(){
     console.log("Hello there!");
 }
+Jsuser.greetingTwo = function(){
+    console.log('Hello there! I am ' + this["full name"] + ' and I am ' + this.age + ' years old.');
+}
 // const mySym2 = Symbol("key2");
 // jsuser[mySym2] = function(){
 //     console.log("Hello there!");
 // }
 
-console.log(Jsuser.greeting);
-
+console.log(Jsuser.greeting());
+console.log(Jsuser.greetingTwo());
