@@ -33,5 +33,5 @@ Jsuser.greeting = function(){
 //     console.log("Hello there!");
 // }
 
-console.log(Jsuser.greeting());
+console.log(Jsuser.greeting);
 
