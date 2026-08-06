@@ -18,4 +18,6 @@ const regularUser = {
         }
     }
 };
-console.log(regularUser.fullname);
+// console.log(regularUser.fullname);
+ 
+
