@@ -18,8 +18,20 @@ console.log(Jsuser["full name"]);
 console.log(Jsuser[mySym]);
 
 Jsuser.email = "anas@newemail.com"
-Object.freeze(Jsuser);
+// Object.freeze(Jsuser);
 
 Jsuser.email = "anas@chatgpt.com"
 console.log(Jsuser);
+
+//working on functions inside objects
+
+Jsuser.greeting = function(){
+    console.log("Hello there!");
+}
+// const mySym2 = Symbol("key2");
+// jsuser[mySym2] = function(){
+//     console.log("Hello there!");
+// }
+
+console.log(Jsuser.greeting());
 
