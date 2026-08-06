@@ -19,3 +19,7 @@ console.log(Jsuser[mySym]);
 
 Jsuser.email = "anas@newemail.com"
 Object.freeze(Jsuser);
+
+Jsuser.email = "anas@chatgpt.com"
+console.log(Jsuser);
+
