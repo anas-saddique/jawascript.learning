@@ -5,7 +5,7 @@ const mySym=Symbol("key1");
 const Jsuser = {
  "full name": "Anas",
   age: 20,
-  mySym: "key1",
+  [mySym]: "key1",
   email: "anas@example.com",
   location: "Pakistan",
   isActive: false,
