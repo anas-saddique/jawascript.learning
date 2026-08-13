@@ -24,4 +24,4 @@ myNums.forEach( (num) => {
         nemNums.push(num)
     }
 })
-console.log(nemNums);
+console.log(nemNums); 
