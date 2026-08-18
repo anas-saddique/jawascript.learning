@@ -1,0 +1,58 @@
+.nav{
+  font-size: 25px;
+  color:#341C02 ;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+  transition: 0.3s;
+  /* opacity: 0; */
+  animation: slideTop 0.5s ease forwards;
+  animation-delay: calc(0.2s * var(--i))
+}
+.logo {
+  position: relative;
+  font-size: 25px;
+  color:#341C02 ;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: default;
+  animation: slideRight 1s ease forwards;
+  font-size: 30px;
+  margin-top:10px ;
+  font-family:;
+}
+.header {
+  padding: 1px 4%;
+  display: flex;
+  margin-left: ;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "poppins", sans-serif;
+}
+
+.navbar {
+    /* background-color: #212121; */
+    padding: 20px 40px;
+    margin-left: 380px;
+    font-family: sans-serif;
+}
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+.navbar a {
+     color:#341C02 ;
+    text-decoration: none;
+    font-size: 31px;
+}
+
+.navbar a:hover {
+    color:brown;
+}
