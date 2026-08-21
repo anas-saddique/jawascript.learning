@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,
+     link
+     initial-scale=1.0"
+    />
+    <title>Document</title>
+  </head>
+  <body style="background-color: rgb(182, 136, 81); color: #110900">
+    <ul class="language">
+      <li>javascript</li>
+    </ul>
+  </body>
+  <script>
+    function addLanguage(langname) {
+      const li = document.createElement("li");
+      li.innerHTML = `${langname}`;
+      document.querySelector(".language").appendChild(li);
+    }
+    addLanguage("python");
+    addLanguage("python");
+
+    function addOptiLanguage(langname) {
+      const li = document.createElement("li");
+      li.appendChild(document.createTextNode(langname));
+      document.querySelector(".language").appendChild(li);
+    }
+    addOptiLanguage("golang");
+  </script>
+</html>
