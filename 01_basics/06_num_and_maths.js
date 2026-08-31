@@ -8,7 +8,7 @@ console.log(balance.toString().length);
 console.log(balance.toFixed(2));
 
 const otherNumber = 123.456;
-console.log(otherNumber.toPrecision(3));
+console.log(otherNumber.toPrecision(5));
 
 const hundred = 100000;
 console.log(hundred.toLocaleString("en-pk"));
@@ -26,8 +26,7 @@ console.log(Math.max(4,5,6,7,8,2,7))
 
 console.log(Math.random())
 console.log((Math.random()*10)+ 1)
-console.log((Math.random()*10)+ 1)
-
+console.log((Math.random()*10)+ 1)  
 
 const min = 10
 const max = 20

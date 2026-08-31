@@ -7,7 +7,7 @@ tinderUser.name = "Anas";
 tinderUser.isLoggedIn = false;
 
 
-// console.log(tinderUser);
+console.log(tinderUser);
 
 const regularUser = {
     email: "regular@example.com",
@@ -18,7 +18,7 @@ const regularUser = {
         }
     }
 };
-// console.log(regularUser.fullname);
+console.log(regularUser.fullname);
  
 
 const obj1 = {1: "a", 2: "b"};

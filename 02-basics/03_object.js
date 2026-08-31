@@ -1,7 +1,5 @@
 
 const mySym=Symbol("key1");
-
-
 const Jsuser = {
  "full name": "Anas",
   age: 20,
