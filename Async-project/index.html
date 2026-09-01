@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=  , initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>ANAS</h1>
+    button <button id="btn">Click me</button>
+  </body>
+  <script>
+    const sayAnas = function () {
+      console.log("sayAnas function is called ");
+    };
+
+    const changeText = function () {
+      document.querySelector("h1").innerHTML = "ANAS changed the text";
+    };
+
+    const ChangeMe = setTimeout(sayAnas, 2000);
+    document.querySelector("#btn").addEventListener
+    ("click", changeText);
+  </script>
+</html>
