@@ -6,5 +6,20 @@
         }
         return color;
     };
-    console.log(randomColor())
+      let intervalId;
+    const startChangingColor = function () {
+        intervalId  = setInterval(() => {
+            document.body.style.backgroundColor = randomColor();
+        }, 1000);       
+    };
+    const stopChangingColor = function () {
+        clearInterval(intervalId);
+    };
+      document.querySelector('#start').addEventListener('click',
+         startChangingColor);
+      document.querySelector('#stop').addEventListener('click',
+         stopChangingColor);
+
+
+    // console.log(randomColor()) 
     // console.log(Math.random() * 16);
